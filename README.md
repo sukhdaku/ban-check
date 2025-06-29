@@ -107,7 +107,7 @@ Deploy in seconds using Vercel.
 
 - **Language:** Node.js (Express)
 - **API Focused:** Clean JSON response
-- **Author:** [Your Name or Alias]
+- **Author:** [Sukh Daku]
 
 ---
 
