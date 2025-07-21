@@ -6,10 +6,10 @@ async function fetchPlayerData(uid) {
     if (!response.data || !response.data.playerData) {
       throw new Error('ID NOT FOUND');
     }
-    const playerInfo = response.data.data.player_info;
+    const playerInfo = response.data.playerData;
 
     return {
-      nickname: playerInfo.nikname || 'N/A',
+      nickname: playerInfo.nickname || 'N/A',
       region: playerInfo.region || 'N/A'
     };
   } catch (error) {
