@@ -2,7 +2,7 @@ const axios = require('axios');
 
 async function fetchPlayerData(uid) {
   try {
-    const response = await axios.get(`https://asyncban.vercel.app/info?uid=${uid}`);
+    const response = await axios.get(`https://syncinfo.vercel.app/info?uid=${uid}`);
     if (!response.data || !response.data.playerData) {
       throw new Error('ID NOT FOUND');
     }
